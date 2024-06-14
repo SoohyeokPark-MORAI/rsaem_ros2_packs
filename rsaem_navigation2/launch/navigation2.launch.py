@@ -21,7 +21,7 @@ def generate_launch_description():
     map_dir = LaunchConfiguration(
         'map',
         default=os.path.join(
-            get_package_share_directory('turtlebot3_navigation2'),
+            get_package_share_directory('rsaem_navigation2'),
             'map',
             'turtlebot3_world.yaml'))
 
